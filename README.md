@@ -10,3 +10,7 @@ scrapy startproject <project_name>
 # run spider
 scrapy crawl <spider_name>
 ```
+```
+# start splash
+docker run -p 8050:8050 scrapinghub/splash
+```

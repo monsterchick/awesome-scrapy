@@ -21,7 +21,9 @@ ADDONS = {}
 ROBOTSTXT_OBEY = True
 
 # Concurrency and throttling settings
-#CONCURRENT_REQUESTS = 16
+# CONCURRENT_REQUESTS = 16
+# 设置并发为1， 每次只发送一个请求
+CONCURRENT_REQUESTS = 1
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
 DOWNLOAD_DELAY = 1
 
@@ -84,3 +86,4 @@ DOWNLOAD_DELAY = 1
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
+
